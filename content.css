@@ -1,0 +1,128 @@
+
+.card, .block, .list-group-item, .btn-light, .menu, .dropdown-menu, .bg-pulse-grey, .empty-icon-container, .overlay-icon-container, .message-app, div.bg-white, .popover-region-container, .popover-region-footer-container, .moodle-dialogue-content, select, .fp-thumbnail {
+    background-color: #333 !important;
+}
+
+input, .dropdown-item:active, .dropdown-item:hover, .dropdown-item:focus, .dropdown-item:focus-within, .dropdown-item.active, .message, .preferences-container .preference-table tr th:nth-child(even), .preferences-container .preference-table tr td:nth-child(even), textarea.form-control, .btn-icon:focus, .btn-icon:hover, .path-mod-assign td.submissionnotgraded {
+    background-color: #555 !important;
+}
+
+span.input-group-text {
+    background-color: #999 !important;
+}
+
+a.popover-region-toggle:focus, p.message, .fp-filename {
+    background-color: transparent !important;
+}
+
+.btn-secondary:hover, .btn-primary:hover, .btn-secondary:focus, .btn-primary:focus, .nav-items:focus, .nav-items:hover, a:focus, option {
+    background-color: #4e5760 !important;
+    box-shadow: none !important;
+}
+
+.moodle-dialogue-content {
+    border: none !important;
+    border-radius: 10px;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    color: #ddd !important;
+}
+
+.site-name {
+    color: inherit !important;
+}
+
+
+.btn-light {
+    border-color: none !important;
+    border: none !important;
+}
+
+
+.dropdown-menu, .popover-region-container, select {
+    border: 2px solid #555 !important;
+    padding: 0px !important;
+}
+
+.dropdown-item, option {
+    border-bottom: 2px solid #555 !important;
+    color: #fff !important;
+}
+
+#region-main {
+    background-color: #333 !important;
+    border: none !important;
+}
+
+.card-deck {
+    background-color: #555 !important;
+    border-radius: 5px;
+    padding-top: 8px;
+}
+
+.profile_tree{
+    background-color: #555 !important;
+    border-radius: 5px;
+    padding: 8px 8px 0px 8px;
+}
+
+#page {
+    background-color: rgba(10,10,10,0.7) !important;
+}
+
+
+
+a {
+    color: #8fd8eb !important;
+    font-weight: 600 !important;
+}
+
+#page-footer, .bg-white, .navbar-bootswatch, .btn-secondary, .btn-primary, .navbar-brand:focus, .navbar-brand:hover, .page-link {
+    background-color: #343a40 !important;
+}
+
+.btn-primary, .btn-secondary, .border, .page-link {
+    border-color: #343a40 !important;
+}
+
+.btn-outline-secondary, p, h1, h2, h3, h4, h5, .dropdown-header, small, .text-muted, div, .btn-secondary, .navbar-brand, th, td, textarea.form-control::placeholder, select, input.form-control, .closebutton {
+    color: #fff !important;
+}
+
+.resourcelinkdetails {
+    color: #999 !important;
+}
+
+.border-bottom, .dropdown-divider{
+    border-bottom-color: #555 !important;
+}
+
+.btn-secondary{
+    font-weight: 600 !important;
+}
+
+
+.card-footer, #inst136783, #page-header, #inst138764 {
+    display: none;
+}
+
+#page-content {
+    margin: 10px 0px;
+}
+
+.site-name{
+    margin-left: 10px !important;
+}
+
+.aabtn.focus, .btn-link.focus, .nav-link.focus, .atto_link_button.focus, [role="button"].focus, .list-group-item-action.focus, input[type="checkbox"].focus, input[type="radio"].focus, input[type="file"].focus, input[type="image"].focus, .sr-only-focusable.focus, a.dropdown-toggle.focus, .modal-dialog[tabindex="0"].focus, .moodle-dialogue-base .closebutton.focus, button.close.focus, .form-autocomplete-selection.focus, .aabtn:focus, .btn-link:focus, .nav-link:focus, .atto_link_button:focus, [role="button"]:focus, .list-group-item-action:focus, input[type="checkbox"]:focus, input[type="radio"]:focus, input[type="file"]:focus, input[type="image"]:focus, .sr-only-focusable:focus, a.dropdown-toggle:focus, .modal-dialog[tabindex="0"]:focus, .moodle-dialogue-base .closebutton:focus, button.close:focus, .form-autocomplete-selection:focus, select{
+    box-shadow: none !important;
+}
+
+.path-mod-assign td.submissionstatussubmitted, .path-mod-assign td.earlysubmission {
+    background-color: #019875 !important;
+}
+
+.latesubmission {
+    background-color: #88293d !important;
+}

@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Dark Moodle",
-    "version": "0.2",
+    "version": "0.3",
     "icons": {
         "16": "images/icon16.png",
         "32": "images/icon32.png",
@@ -11,9 +11,8 @@
     "description": "Dark theme for UBS Moodle",
     "content_scripts": [
         {
-            "css": ["./content.css"],
+            "css": ["./style.css"],
             "matches": ["https://moodle.univ-ubs.fr/*"]
         }
-    ],
-    "permissions": ["tabs"]
+    ]
 }

@@ -1,4 +1,4 @@
-body,.card,.block,.list-group-item,.btn-light,.menu,.dropdown-menu,.dropdown-item,.bg-pulse-grey,.empty-icon-container,.overlay-icon-container,div.message-app,div.bg-white,div.bg-light,.popover-region-container,.popover-region-footer-container,.moodle-dialogue-content,select,.fp-thumbnail,.conversationcontainer,.body-container,.editor_atto_toolbar, .dndupload-target,.editor_atto_content_wrap {
+body,.card,.block,.list-group-item,.btn-light,.menu,.dropdown-menu,.dropdown-item,.bg-pulse-grey,.empty-icon-container,.overlay-icon-container,div.message-app,div.bg-white,div.bg-light,.popover-region-container,.popover-region-footer-container,.moodle-dialogue-content,select,.fp-thumbnail,.conversationcontainer,.body-container,.editor_atto_toolbar, .dndupload-target,.editor_atto_content_wrap,.course-summaryitem,.filemanager th.yui3-datatable-header, .filemanager .yui3-datatable-even td.yui3-datatable-cell,.filemanager .yui3-datatable-odd .yui3-datatable-cell {
     background-color:#333!important
 }
 input,.message,.preferences-container .preference-table tr th:nth-child(even),.preferences-container .preference-table tr td:nth-child(even),textarea.form-control,.btn-icon:focus,.btn-icon:hover,.path-mod-assign td.submissionnotgraded,.editor_atto_content {
@@ -7,16 +7,32 @@ input,.message,.preferences-container .preference-table tr th:nth-child(even),.p
 .editor_atto_content::placeholder{
     content: "Ecrire ici...";
 }
+.course-summaryitem{
+    border-color: #555 !important;
+    border-width: 2px !important;
+}
 .editor_atto, button[class^='atto_'] {
     border-radius: 5px !important;
 }
-.dropdown-item:active,.dropdown-item:hover{
+.dropdown-item:active,.dropdown-item:hover {
     background-color:#999!important
+}
+.yui3-skin-sam .yui3-datatable-sort-indicator{
+    bottom: 0 !important;
+    width: auto !important;
+    height: auto !important;
+}
+.yui3-datatable-sort-indicator{
+    background:none !important;
+}
+.yui3-datatable-sort-indicator::before{
+    content: "\f160" !important;
+    font: normal normal normal 14px/1 FontAwesome !important;
 }
 a.popover-region-toggle:focus,p.message,.fp-filename,.list-group-item-action,.dropdown-item:focus,.atto_group{
     background-color:transparent!important
 }
-.dropdown-item:focus-within,.dropdown-item.active,.btn-secondary:hover,.btn-primary:hover,.btn-secondary:focus,.btn-primary:focus,.nav-items:focus,.nav-items:hover,a:focus,option,.nav-pills .nav-link.active,.dropdown-toggle,.btn-outline-secondary,span.input-group-text,div.editor_atto_toolbar button:hover{
+.dropdown-item:focus-within,.dropdown-item.active,.btn-secondary:hover,.btn-primary:hover,.btn-secondary:focus,.btn-primary:focus,.nav-items:focus,.nav-items:hover,a:focus,option,.nav-pills .nav-link.active,.dropdown-toggle,.btn-outline-secondary,span.input-group-text,div.editor_atto_toolbar button:hover, .filemanager .ygtvfocus{
     background-color:#4e5760!important;
     background-image: none!important;
     box-shadow:none!important;
@@ -138,6 +154,10 @@ footer::after{
 .atto_group{
     border-color: transparent !important;
 }
+.yui3-skin-sam .yui3-datatable-header{
+    text-shadow: none;
+}
+
 
 /* Scrollbar */
 ::-webkit-scrollbar {

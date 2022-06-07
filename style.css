@@ -1,5 +1,8 @@
-body,.card,.block,.list-group-item,.btn-light,.menu,.dropdown-menu,.dropdown-item,.bg-pulse-grey,.empty-icon-container,.overlay-icon-container,div.message-app,div.bg-white,div.bg-light,.popover-region-container,.popover-region-footer-container,.moodle-dialogue-content,select,.fp-thumbnail,.conversationcontainer,.body-container,.editor_atto_toolbar, .dndupload-target,.editor_atto_content_wrap,.course-summaryitem,.filemanager th.yui3-datatable-header, .filemanager .yui3-datatable-even td.yui3-datatable-cell,.filemanager .yui3-datatable-odd .yui3-datatable-cell {
+.card,.block,.list-group-item,.btn-light,.menu,.dropdown-menu,.dropdown-item,.bg-pulse-grey,.empty-icon-container,.overlay-icon-container,div.message-app,div.bg-white,div.bg-light,.popover-region-container,.popover-region-footer-container,.moodle-dialogue-content,select,.fp-thumbnail,.conversationcontainer,.body-container,.editor_atto_toolbar, .dndupload-target,.editor_atto_content_wrap,.course-summaryitem,.filemanager th.yui3-datatable-header, .filemanager .yui3-datatable-even td.yui3-datatable-cell,.filemanager .yui3-datatable-odd td.yui3-datatable-cell, .modal-content {
     background-color:#333!important
+}
+body{
+    background-image:url('https://raw.githubusercontent.com/Fyelne/Dark-Moodle/main/images/background.png') !important;
 }
 input,.message,.preferences-container .preference-table tr th:nth-child(even),.preferences-container .preference-table tr td:nth-child(even),textarea.form-control,.btn-icon:focus,.btn-icon:hover,.path-mod-assign td.submissionnotgraded,.editor_atto_content {
     background-color:#555!important
@@ -76,9 +79,6 @@ a.popover-region-toggle:focus,p.message,.fp-filename,.list-group-item-action,.dr
     border-radius:5px;
     padding:8px 8px 0px
 }
-#page{
-    background-color:#0a0a0ab3!important
-}
 a,footer::after{
     color:#8fd8eb!important;font-weight:600!important
 }
@@ -91,14 +91,11 @@ a,footer::after{
 .btn-primary,.btn-secondary,.border,.page-link{
     border-color:#343a40!important
 }
-.btn-outline-secondary,p,h1,h2,h3,h4,h5,.dropdown-header,small,span.text-muted,small.text-muted,div.text-muted,div,.btn-secondary,.navbar-brand,th,td,textarea.form-control::placeholder,select,input.form-control,.closebutton,.close,strong,.navbar-bootswatch a i.icon,i.icon,.day{
+.btn-outline-secondary,p,h1,h2,h3,h4,h5,.dropdown-header,small,span.text-muted,small.text-muted,div.text-muted,div,.btn-secondary,.navbar-brand,th,td,textarea.form-control::placeholder,select,input.form-control,.closebutton,.close,strong,.navbar-bootswatch a i.icon,i.icon,.day, pre{
     color:#fff!important
 }
 .resourcelinkdetails{
     color:#999!important
-}
-.border-bottom{
-    border-bottom-color:#555!important
 }
 .dropdown-divider{
     border-top-color:transparent!important
@@ -127,10 +124,10 @@ div.border-right{
 div.border-left{
     border-left-color:#999!important
 }
-div.border-top{
+div.border-top, .modal-footer{
     border-top-color:#999!important
 }
-div.border-bottom{
+div.border-bottom, .modal-header{
     border-bottom-color:#999!important
 }
 div.border{
@@ -161,35 +158,20 @@ footer::after{
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
+  width: 8px;
+  height: 8px;
 }
 ::-webkit-scrollbar-button {
-    width: 0px;
-    height: 0px;
+  width: 0px;
+  height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-    background: #4e5760;
-    border: 0px none #333;
-    border-radius: 50px;
+  background: #b2b2b2;
+  border-radius: 50px;
 }
-::-webkit-scrollbar-thumb:hover {
-    background: #6c757d;
+::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active {
+  background: #777777;
 }
-::-webkit-scrollbar-thumb:active {
-    background: #333333;
-}
-::-webkit-scrollbar-track {
-    background: #333333;
-    border: 0px none #333;
-    border-radius: 50px;
-}
-::-webkit-scrollbar-track:hover {
-    background: #333333;
-}
-::-webkit-scrollbar-track:active {
-    background: #555555;
-}
-::-webkit-scrollbar-corner {
-    background: transparent;
+::-webkit-scrollbar-track, ::-webkit-scrollbar-corner, ::-webkit-scrollbar-track:hover, ::-webkit-scrollbar-track:active {
+  background: #333;
 }
